@@ -1,0 +1,137 @@
+/* step section */
+section.step .row h1 {
+    font-size: 50px;
+}
+
+/* color section */
+section.color .row div:first-child {
+    background-color: red;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+section.color .row div:nth-child(2) {
+    background-color: green;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+section.color .row div:nth-child(3) {
+    background-color: yellow;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+section.color .row div:nth-child(4) {
+    background-color: pink;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+/* calculator section */
+section.calculator button {
+    display: inline-block;
+    font-size: 25px;
+}
+
+section.calculator input {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Number Guessing Game */
+section.guesses input {
+    font-size: 25px;
+}
+
+/* Word Counter and Character Counter */
+section.words textarea {
+    font-size: 25px;
+    height: 200px;
+}
+
+/* review project */
+section.review .image {
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+section.review img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.prev-btn,
+.next-btn {
+    font-size: 30px;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Random Quote section */
+section.quote .iconquote {
+    font-size: 60px;
+}
+
+/* Message Passing section */
+section.message input {
+    font-size: 30px;
+    padding: 10px 0px !important;
+    text-align: center;
+}
+
+section.message .feedback {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+/* Ballon Poping */
+.ballondiv {
+    background-color: #ededed;
+}
+
+.ballons {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ballons:nth-child(2n) {
+    background-color: yellow;
+}
+
+.final {
+    display: none;
+    font-size: 40px;
+}
+
+/* Countdown section */
+section.countdown h5 {
+    font-size: 30px;
+}
+
+section.countdown h1 {
+    font-size: 40px;
+}
+
+/* Increment Counter */
+section.counters i {
+    font-size: 80px;
+}
+section.counters .col-sm-4 div{
+    font-size: 40px;
+}

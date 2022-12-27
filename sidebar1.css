@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-sarif";
+}
+
+body {
+    position: relative;
+    min-width: 100vh;
+    width: 100%;
+}
+
+/* sidebar section */
+.wrapper .sidebar {
+    background: #1d1d1d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 225px;
+    height: 100%;
+    padding: 0 15px;
+    transition: all 0.5s ease;
+    z-index: 1;
+    left: -225px;
+}
+
+.wrapper .sidebar .profile {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.wrapper .sidebar .profile img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3 {
+    color: #f3f3f3;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.wrapper .sidebar .profile p {
+    color: #f3f3f3;
+    font-size: 15px;
+}
+
+.wrapper .sidebar ul li {
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.wrapper .sidebar ul li a {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.wrapper .sidebar ul li a i {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.wrapper .sidebar ul li a i,
+.wrapper .sidebar ul li a .linkname,
+.logout a {
+    font-size: 20px;
+    color: #f3f3f3;
+}
+
+.wrapper .sidebar ul li a .linkname {
+    font-size: 15px;
+}
+
+.navlink a:link,
+.navlink a:visited,
+.logout a:visited,
+.logout a:link {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper .sidebar li:hover,
+.logout:hover,
+.show {
+    background-color: #f3f3f3;
+}
+
+.wrapper .sidebar li:hover .linkname,
+.wrapper .sidebar li:hover i,
+.logout:hover .linkname,
+.logout:hover i,
+.show a i,
+.show a .linkname {
+    color: #1d1d1d !important;
+}
+
+.logout {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transform: all 0.4s ease;
+}
+
+.logout a {
+    padding: 0 22px;
+}
+
+.logout a i {
+    margin-right: 18px;
+}
+
+.logout a .linkname {
+    font-size: 15px;
+}
+
+section.check h1 {
+    text-align: justify;
+}
+
+/* Other content manage */
+.wrapper .header,
+.wrapper~section {
+    /* width: calc(100%-225px);
+    margin-left: 225px;
+    width: 100%;
+    margin-left: 0%; */
+    transition: all 0.6s ease;
+    /* margin-top: 50px; */
+}
+
+.wrapper .header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper .header .top-navbar {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    /* z-index: 1; */
+}
+
+.wrapper .header .top-navbar .button i {
+    font-size: 30px;
+    margin: 10px 0;
+    color: black;
+}
+
+.wrapper.active .sidebar {
+    /* left: -225px; */
+    left: 0px;
+}
+
+.wrapper.active .header,
+.wrapper.active~section {
+    /* width: 100%;
+    margin-left: 0%; */
+    width: calc(100%-225px);
+    margin-left: 225px;
+}
+
+@media(max-width:450px) {
+    section.check h1 {
+        font-size: 15px;
+    }
+}

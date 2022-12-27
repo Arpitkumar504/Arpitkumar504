@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Slider</title>
+    <link rel="icon" href="/old_src/website/images/portfolio_image/logo.png">
+    <!-- css link -->
+    <link rel="stylesheet" href="/old_src/website/javascript/swiperslider.css">
+    <!-- bootstrap 4 link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- font awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- boxicons icon cdn -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper js cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!--Animate on scroll(AOS) cdn link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <a href="">
+            <img src="/old_src/website/javascript/project image/sliderimage/logo.jpg">
+        </a>
+        <div class="navbar">
+            <ul class="navlist">
+                <li class="navlink">
+                    <div class="navbox">
+                        <a href="">About</a>
+                        <div class="navbtn">
+                            <ion-icon name="add-outline" class="add button"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove button"></ion-icon>
+                        </div>
+                    </div>
+                    <ul class="navitem">
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navlink">
+                    <div class="navbox">
+                        <a href="">Services</a>
+                        <div class="navbtn">
+                            <ion-icon name="add-outline" class="add button"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove button"></ion-icon>
+                        </div>
+                    </div>
+                    <ul class="navitem">
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navlink">
+                    <div class="navbox">
+                        <a href="">Industries</a>
+                        <div class="navbtn">
+                            <ion-icon name="add-outline" class="add button"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove button"></ion-icon>
+                        </div>
+                    </div>
+                    <ul class="navitem">
+                        <li>
+                            <i class="fa-solid fa-stethoscope"></i>
+                            <a href="">Healthcare</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-users"></i>
+                            <a href="">Social Networking</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <a href="">Ecommerce</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <a href="">Travel</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-coins"></i>
+                            <a href="">Finance</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-utensils"></i>
+                            <a href="">Resturant</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navlink">
+                    <div class="navbox">
+                        <a href="">Portfolio</a>
+                        <div class="navbtn">
+                            <ion-icon name="add-outline" class="add button"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove button"></ion-icon>
+                        </div>
+                    </div>
+                    <ul class="navitem">
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navlink">
+                    <div class="navbox">
+                        <a href="">Resources</a>
+                        <div class="navbtn">
+                            <ion-icon name="add-outline" class="add button"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove button"></ion-icon>
+                        </div>
+                    </div>
+                    <ul class="navitem">
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle"></i>
+                            <a href="">abcd</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="searchbox">
+                    <div class="search">
+                        <ion-icon name="search-outline" class="searchbar"></ion-icon>
+                        <ion-icon name="close-outline" class="searchbar"></ion-icon>
+                    </div>
+                    <div class="searchcontent">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </div>
+                </li>
+                <li class="darkmode">
+                    <div class="darks">
+                        <ion-icon name="sunny-outline" class="dark"></ion-icon>
+                        <ion-icon name="moon-outline" class="dark"></ion-icon>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="navbutton">
+            <ion-icon name="close-outline" class="mobile"></ion-icon>
+            <ion-icon name="menu-outline" class="mobile"></ion-icon>
+        </div>
+    </div>
+    <!-- preloader -->
+    <div class="preloader"></div>
+    <!-- dummy-->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo obcaecati
+                        laudantium natus dolore adipisci vitae quaerat enim qui? Quia unde iste assumenda dolorem
+                        nostrum eius voluptatem quos corporis provident, maxime dignissimos ipsum minima illum totam
+                        doloribus deleniti ducimus nisi! Quos consequuntur numquam accusamus perspiciatis obcaecati!
+                        Sint nostrum eveniet deleniti reiciendis quam perspiciatis beatae itaque obcaecati cupiditate,
+                        rerum dicta quae, vero unde ullam fugiat aliquam! Ad unde maxime atque. Amet, rerum. Laborum
+                        libero, exercitationem a soluta animi vero! Ratione error quae, quis quaerat corrupti itaque nam
+                        quas explicabo ipsam minima nostrum laborum mollitia, aspernatur, optio officia nemo. Error
+                        soluta officia assumenda quae natus suscipit laudantium dolorum repellendus! Iure facere velit
+                        adipisci eum molestiae culpa ipsum consequatur inventore, reiciendis magni voluptas accusamus
+                        dignissimos officia a nesciunt dolore, eaque voluptatibus vero quod eveniet. Repellendus, sit?
+                        Ab illo officia cupiditate error animi est impedit magni modi aperiam! Velit minima nisi
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Word Rotate -->
+    <section class="effect" data-aos="zoom-in">
+        <div class="container">
+            <div class="rotatecontent">
+                <div class="imagecontent">
+                    <p>Coding Is</p>
+                    <div class="words">
+                        <span>Fantastic</span>
+                        <span>Intresting</span>
+                        <span>Awesome</span>
+                        <span>Incredible</span>
+                        <span>Wonderfull</span>
+                        <span>Best</span>
+                        <span>Amazing</span>
+                        <span>Great</span>
+                        <span>Outstanding</span>
+                        <span>Unbelievable</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Swiper js -->
+    <div class="container-fluid" data-aos="zoom-in">
+        <div class="slidercontainer swiper">
+            <div class="slide-content">
+                <div class="slidecontents swiper-wrapper">
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/img1.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>David Dell</h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/img2.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>David Dell</h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/img3.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>David Dell</h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/img4.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>David Dell</h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/img1.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>David Dell</h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/img2.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>David Dell</h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/img3.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>David Dell</h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                    <div class="cards swiper-slide">
+                        <div class="image">
+                            <img src="/old_src/website/javascript/project image/sliderimage/akash.jpg">
+                        </div>
+                        <div class="cardcontent">
+                            <h5>Akash Singh </h5>
+                            <div class="content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, quaerat
+                                    tempore
+                                    ducimus aperiam unde delectus.</p>
+                            </div>
+                            <button type="button" class="button">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next next"></div>
+            <div class="swiper-button-prev prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- cards filter -->
+    <section class="project my-5">
+        <div class="container">
+            <h1 class="py-4">RECENTLY DONE PROJECT <br> QUALITY WORK</h1>
+            <div class="input-group w-75 mx-auto">
+                <input type="text" class="form-control searchbars" placeholder="Search Items" name="name">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                </div>
+            </div>
+            <div class="mt-5 mx-auto text-center">
+                <button type="button" class="bt btn btn-outline-primary px-2 px-sm-3 mr-2  all" data-filter='all'>ALL
+                </button>
+                <button type="button" class="bt btn btn-outline-primary px-2 px-sm-3 mr-2 plr"
+                    data-filter='popular'>POPULAR</button>
+                <button type="button" class="bt btn btn-outline-primary px-2 px-sm-3 mr-2 latest"
+                    data-filter='latest'>LATEST</button>
+                <button type="button" class="bt btn btn-outline-primary px-2 px-sm-3 mr-2 follow"
+                    data-filter='follow'>FOLLOWING</button>
+                <button type="button" class="bt btn btn-outline-primary px-2 px-sm-3 upcom "
+                    data-filter='upcom'>UPCOMING</button>
+            </div>
+            <div class="row pt-5 mt-4 justify-content-sm-around justify-content-center" data-aos="zoom-in">
+                <div class="col-10 col-sm-5 col-lg-3 text-center text-sm-left mx-auto mx-sm-0 popular plr item">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p1.jpg">
+                    </div>
+                    <h3>Chair</h3>
+                    <p class="m-0">Latest, Portfolio</p>
+                    <span>100</span>
+                </div>
+                <div
+                    class="col-10 col-sm-5 col-lg-3 text-center text-sm-left mx-auto mx-sm-0 mt-5 mt-sm-0 item upc upcom">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p2.jpg">
+                    </div>
+                    <h3>PAINT WALL</h3>
+                    <p class="m-0">Polular, Portfolio</p>
+                    <span>3000</span>
+                </div>
+                <div
+                    class="col-10 col-sm-5 col-lg-3 mx-auto mx-sm-0 mt-5 mt-sm-0 text-center text-sm-left mt-sm-5 mt-lg-0 popular plr item">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p3.jpg">
+                    </div>
+                    <h3>Coffee</h3>
+                    <p class="m-0">Latest, Portfolio</p>
+                    <span>1500</span>
+                </div>
+                <div
+                    class="col-10 col-sm-5 col-lg-3 text-center text-sm-left mx-auto mx-sm-0 mt-5 mt-sm-0 mt-sm-5 mt-lg-0 item lat latest">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p4.jpg">
+                    </div>
+                    <h3>Shoe</h3>
+                    <p class="m-0">Latest, Portfolio</p>
+                    <span>10089</span>
+                </div>
+                <div
+                    class="col-10 col-sm-5 col-lg-3 text-center text-sm-left mx-auto mx-sm-0 mt-5 mt-sm-0 mt-lg-5 mt-sm-5 upc upcom item">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p6.jpg">
+                    </div>
+                    <h3>Flower Pot</h3>
+                    <p class="m-0">Latest, Portfolio</p>
+                    <span>2100</span>
+                </div>
+                <div
+                    class="col-10 col-sm-5 col-lg-3 text-center text-sm-left mx-auto mx-sm-0 mt-5 mt-sm-0 mt-lg-5 mt-sm-5 item fol follow">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p5.jpg">
+                    </div>
+                    <h3>Books</h3>
+                    <p class="m-0">Latest, Portfolio</p>
+                    <span>6300</span>
+                </div>
+                <div
+                    class="col-10 col-sm-5 col-lg-3 text-center text-sm-left mx-auto mx-sm-0 mt-5 mt-sm-0 mt-lg-5 mt-sm-5 item lat latest">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p9.jpg">
+                    </div>
+                    <h3>Camera Lens</h3>
+                    <p class="m-0">Latest, Portfolio</p>
+                    <span>5236</span>
+                </div>
+                <div
+                    class="col-10 col-sm-5 col-lg-3 text-center text-sm-left mx-auto mx-sm-0 mt-5 mt-sm-0 mt-lg-5 mt-sm-5 plr popular item">
+                    <div>
+                        <img src="/old_src/website/images/portfolio_image/p8.jpg">
+                    </div>
+                    <h3>Color Shades</h3>
+                    <p class="m-0">Latest, Portfolio</p>
+                    <span>10000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- swiper js link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Animate On Scroll(AOS) Link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- iconic icons link-->
+    <script src="/old_src/website/javascript/navbarproject.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- javascript link -->
+    <script src="/old_src/website/javascript/swiperslider.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+section.access .container{
+    text-align: center;
+}
+/* keyevent section */
+section.keyevent input{
+    font-size: 25px;
+    border-color:black;
+    border-radius: 50px;
+    outline: none;
+}
+/* scroll section */
+section.scroll .over{
+    overflow:scroll;
+    background-color:black !important;
+    height: 300px;
+    width: 400px;
+}
+section.scroll .over h5{
+    width:900px;
+    height: 500px;
+    background-color: red;
+}
+/* abd section */
+section.abd .v{
+    width:500px;
+    height:200px;
+    overflow:auto;
+}
+/* form section */
+section.form input{
+    outline:none;
+    border-radius:5px;
+    width:409px;
+}
+/* form section(selectbox) */
+section.select #selectbox{
+    width:200px;
+    font-size: 17px;
+}

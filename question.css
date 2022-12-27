@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+
+:root {
+    --first: 'Pacifico', cursive;
+    --second: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--second);
+}
+
+body {
+    position: relative;
+    min-width: 100vh;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin: 30px 0;
+    font-family: var(--first);
+    font-size: 30px;
+}
+
+.general {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: all 0.9s ease;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.general .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.general .content {
+    display: none;
+}
+
+p {
+    padding-top: 20px;
+}
+
+.h {
+    margin: 0;
+    border-width: 2px;
+    color: #f3f3f3;
+}
+
+.upper .ques h5 {
+    font-size: 25px;
+}
+
+.upper .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.upper .btn .plus:hover {
+    transform: rotate(360deg);
+}
+
+.upper .btn .minus:hover {
+    transform: rotate(360deg);
+}
+
+.upper .icon {
+    font-size: 20px;
+    background-color: #1d1d1d;
+    color: white;
+    border: 2px solid black;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+.upper .icon:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.upper .icon[name="remove-outline"] {
+    display: none;
+}
+
+.general.active .upper .icon[name="add-outline"] {
+    display: none;
+}
+
+.general.active .upper .icon[name="remove-outline"] {
+    display: block;
+}
+
+.general.active .content {
+    display: block;
+}
