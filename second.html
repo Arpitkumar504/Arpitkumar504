@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/old_src/website/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/old_src/website/javascript/second.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- selecting elements -->
+    <section class="access py-5">
+        <div class="container">
+            <p class="para">This is first paragraph</p>
+            <p class="para">This is second paragraph</p>
+            <p class="para1">This is second paragraph</p>
+            <h1 id="heading">Change the content of h1</h1>
+            <button type="button" onclick="changecontent()"
+                class="btn btn-secondary px-3 font-weight-bold my-4">Click</button>
+            <button type="button" onclick="changecontent()" class="btn btn-primary px-4 abc">Second test</button>
+        </div>
+    </section>
+    <!-- Traversing Elements -->
+    <ul id="intro">
+        <li>Arpit</li>
+        <li>Arpit kumar</li>
+        <li>Arpit singh</li>
+        <li>Arpit Rishu</li>
+    </ul>
+    <ul>
+        <li>Arpit</li>
+        <li>Arpit</li>
+        <li>Arpit</li>
+        <li>Arpit</li>
+    </ul>
+
+
+    <section class="traverse py-5" id="s">
+        <div class="container">
+            <h1 class="text-center">Traversing Elements</h1>
+            <div class="row justify-content-center">
+                <div class="col-sm-4 text-center" id="ab">
+                    <h3>Children Elements</h3>
+                    <h2>Second Children</h2>
+                    <h1>Third Children</h1>
+                    <img class="img-fluid rounded-circle" src="/old_src/website/images/category-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="event bg-success py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 text-center first">
+                    <h1>This is first way to Firing event</h1>
+                    <button type="button" class="btn btn-danger px-5 py-3 mt-4 font-weight-bold"
+                        onclick="alert('This is first way to firing an event')">Click</button>
+                </div>
+                <div class="col-sm-6 text-center second">
+                    <h1>This is second way to Firing event</h1>
+                    <button type="button" class="btn btn-warning px-5 py-3 mt-4 font-weight-bold"
+                        onclick="call()">Click</button>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5 py-5">
+                <div class="col-sm-6 text-center">
+                    <h1>This is Third way to Firing event</h1>
+                    <button type="button" class="btn btn-secondary px-5 py-3 mt-4 font-weight-bold third">Click</button>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h1>This is fourth way to Firing event</h1>
+                    <button type="button" class="btn btn-primary px-5 py-3 mt-4 font-weight-bold fourth">Click</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mouse Event -->
+    <section class="mouseevent bg-secondary py-5 my-5">
+        <div class="container">
+            <div class="row justify-content-center py-5">
+                <div class="col-sm-5 mouse border text-center py-5">
+                    <h1>Mouse Event in javascript</h1>
+                    <h2 id="down">Check Mouse Event</h2>
+                    <h2 id="message"></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Keyboard Event -->
+    <section class="keyevent py-5 bg-primary">
+        <div class="container">
+            <div class="row justify-content-center py-5">
+                <div class="col-sm-6 remove">
+                    <h1 class="py-4 text-center">Keyboard Event</h1>
+                    <input type="text" name="keyevent" class="target px-5 py-4 w-100 text-center">
+                    <h2 class="show text-center mt-3"></h2>
+                    <h2 class="showsecond text-center mt-3"></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scroll Event -->
+    <section class="scroll py-5 bg-success my-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <h2 class="text-center mb-5">Scroll Event</h2>
+                    <div class="over mx-auto">
+                        <h5>This is a scrollable box</h5>
+                    </div>
+                    <div class="d-flex justify-content-around mt-3">
+                        <button type="button" class="btn btn-secondary px-4 py-3 left">Scroll_left</button>
+                        <button type="button" class="btn btn-secondary px-4 py-3 top">Scroll_Top</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- scrollTo() and scrollBy() method in Scroll Event -->
+    <section class="abd">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 v border border-dark">
+                    <h5 class="text-justify">sdfhksjdhfksdhf Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Illo temporibus id
+                        reiciendis! Dolorem aliquid id commodi ex quisquam, corrupti saepe. Molestias nulla aut quae
+                        dolores suscipit veniam sunt laboriosam ea asperiores, quam architecto vero iure tempore aliquid
+                        magni officiis omnis nihil voluptatem sequi cupiditate deserunt? Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Optio architecto neque esse, ipsam molestiae mollitia aliquam ut
+                        velit porro eos accusantium harum minima vitae voluptate eaque, a quas corrupti ea commodi
+                        maiores laudantium amet atque doloribus similique. Repudiandae eaque id explicabo accus.</h5>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <button type="button" class="btn btn-secondary px-4 py-3 btns">Scroll</button>
+                <button type="button" class="btn btn-secondary px-4 py-3 btnsecond">Scroll</button>
+            </div>
+        </div>
+    </section>
+    <!-- Page Load Event -->
+    <section class="pageload bg-danger py-5 my-5">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <h1 class="text-center text-center py-3">Page Load Events</h1>
+                    <a href="https://www.javascripttutorial.net/javascript-dom/javascript-page-load-events/"><img
+                            src="/old_src/website/images/pageloadevent.jpg" class="loads img-fluid"></a>
+                    <h2 class="content text-center mt-3"></h2>
+                    <h2 class="load text-center">This is display data</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- focus and blur Event -->
+    <section class="focus bg-success py-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-8">
+                    <h1 class="text-center py-4">Focus and Blur Event</h1>
+                    <div class="w-75 mx-auto">
+                        <input type="text" class="f w-100 py-2" placeholder="type here">
+                    </div>
+                    <h3 class="showdata text-center mt-4"></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Event -->
+    <!-- <section class="form py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-8 border py-2 bg-secondary">
+                    <h1 class="text-center ">Form Validation</h1>
+                    <form action="abc" method="post" id="signup">
+                        <div class="field w-75 mx-auto">
+                            <label for="name" class="text-left">Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Enter Your Full Name"
+                                class="w-75 py-2 mx-auto border-dark">
+                            <h5 class="mes"></h5>
+                        </div>
+                        <div class="field w-75 mx-auto mt-3">
+                            <label for="name" class="text-left">Name:</label><br>
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email"
+                                class="w-75 py-2 borer-dark">
+                            <h5 class="mes"></h5>
+                        </div>
+                        <div class="field w-75 mt-3 mx-auto">
+                            <button type="submit" class="btn btn-primary border font-weight-bolder">Submit</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Own Form Event -->
+    <section class="own py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 bg-primary pt-5 pb-3 rounded">
+                    <form action="/old_src/website/javascript/second.html" method="get" class="sign">
+                        <h3 class="text-center">Own Form Validation</h3>
+                        <div class="userfield">
+                            <h5 class="text-center">Enter Your Username</h5>
+                            <div class="input-group mb-3 w-75 mx-auto">
+                                <input type="text" class="form-control" placeholder="Enter Your Username" id="names"
+                                    name="name">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                            </div>
+                            <h5 class="msg text-center text-warning"></h5>
+                        </div>
+                        <div class="userfield mt-3">
+                            <h5 class="text-center">Enter Your Email</h5>
+                            <div class="input-group mb-4 w-75 mx-auto">
+                                <input type="email" class="form-control" placeholder="Enter Your Username" id="emails"
+                                    name="email">
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                                </div>
+                            </div>
+                            <h5 class="msg1 text-center text-warning"></h5>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit"
+                                class="btn btn-outline-dark px-4 py-2 font-weight-bold">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Event(Radio) -->
+    <section class="radio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-5">
+                    <form action="" method="get">
+                        <div class="form-group text-center">
+                            <input type="radio" name="first" id="male" value="Male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="first" id="female" value="Female">
+                            <label for="female">Female</label>
+                            <input type="radio" name="first" id="other" value="Other">
+                            <label for="other">Other</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="button"
+                                class="btn btn-primary px-4 py-2 font-weight-bold btnradio text-center mb-4">Show
+                                Data</button>
+                            <h1 class="rad"></h1>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Event(Checkbox) -->
+    <section class="checkbox">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-8 text-center">
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <input type="checkbox" name="abc" id="first" value="First">
+                            <label for="first">First</label>
+                            <input type="checkbox" name="abc" id="second" value="second">
+                            <label for="second">Second</label>
+                            <input type="checkbox" name="abc" id="third" value="Third">
+                            <label for="third">Third</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="button"
+                                class="btn btn-primary px-4 py-2 font-weight-bold btncheck text-center mb-4">Show
+                                Data</button>
+                            <h1 class="check"></h1>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Event(Select Box) -->
+    <section class="select">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 text-center">
+                    <form action="#" method="get">
+                        <label for="selectbox">Select the Option</label><br>
+                        <select name="first" id="selectbox" class="px-5 py-1 rounded">
+                            <option value="Reactjs">Reactjs</option>
+                            <option value="Nextjs">Nextjs</option>
+                            <option value="MaterialUi">MaterialUi</option>
+                            <option value="Jest">Jest</option>
+                        </select>
+                        <div class="mt-3">
+                            <button type="button" class="btn btn-primary px-3 py-1 selectbtn">Select</button>
+                            <h1 class="selectdata"></h1>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Add and Remove Dynamically -->
+    <section class="select mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-6 text-center bg-secondary py-3">
+                    <form action="#" method="get">
+                        <div>
+                            <h5>Enter your Name</h5>
+                            <input type="text" id="data" placeholder="Enter the name"
+                                class="w-75 py-1 rounded outline-none" autocomplete="off">
+                            <button type="button" class="btn btn-primary px-5 py-1 text-center mt-3 addbtn">ADD</button>
+                        </div>
+                        <div class="mt-2">
+                            <h5>Name List</h5>
+                            <select name="second" id="nameselect" class="px-5 w-75 py-1 rounded">
+                                <option value="">Please Choose Option</option>
+                            </select>
+                            <button type="button"
+                                class="btn btn-primary px-5 py-1 text-center mt-3 removebtn">Remove</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Event(Change Event) -->
+    <section class="change py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-8 text-center">
+                    <div class="mx-auto mt-5">
+                        <h5>Enter Message: </h5>
+                        <input type="text" placeholder="Enter Data" class="inputchange w-75 rounded outline-none py-2">
+                        <h5 class="mt-4">Change Data: <span class="changedata"></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col-sm-8 text-center">
+                    <input type="radio" name="radiochange" id="males" value="Male">
+                    <label for="males">Male</label>
+                    <input type="radio" name="radiochange" id="females" value="Female">
+                    <label for="females">Female</label>
+                    <input type="radio" name="radiochange" id="others" value="Other">
+                    <label for="others">Other</label>
+                    <h5 class="radiodata mt-1"></h5>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-8 text-center">
+                    <input type="checkbox" name="abcd" id="firsts" value="First">
+                    <label for="firsts">First</label>
+                    <input type="checkbox" name="abcd" id="seconds" value="second">
+                    <label for="seconds">Second</label>
+                    <input type="checkbox" name="abcd" id="thirds" value="Third">
+                    <label for="thirds">Third</label>
+                    <h5 class="checkdata mt-4"></h5>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-8 text-center">
+                    <select name="select" id="selectchange" class="w-50 py-2 px-4 rounded">
+                        <option value="Reactjs">Reactjs</option>
+                        <option value="Nextjs">Nextjs</option>
+                        <option value="MaterialUi">MaterialUi</option>
+                        <option value="Jest">Jest</option>
+                    </select>
+                    <h5 class="selectdatas mt-2"></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Event(Input Event) -->
+    <section class="input py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-8 text-center">
+                    <input type="text" placeholder="Enter Data" class="w-75 py-2 rounded outline-none inputs">
+                    <h1 class="inputmessage text-center"></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Event bubbling and Event Capturing -->
+    <section class="propagation py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-5 upper text-center py-4">
+                    <button type="button" class="btn btn-primary px-4 py-2 btnpro font-weight-bold">Click</button>
+                    <h5 class="textpro mt-3"></h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/old_src/website/javascript/second.js"></script>
+</body>
+
+</html>

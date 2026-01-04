@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/old_src/website/javascript/advance.css">
+    <!-- bootstrap 4 link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- font awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- xmlhttpRequest -->
+    <section class="cdata">
+        <div class="container">
+            <h5>Country Data Using xmlhttpRequest</h5>
+            <div class="tabledata table-responsive">
+                <table class="table table-hover table-bordered table-striped">
+                    <thead class="countrylist">
+                        <td>Name</td>
+                        <td>Capital</td>
+                        <td>Currency</td>
+                        <td>Language</td>
+                        <td>Population</td>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Random Joke using xmlhttpRequest -->
+    <section class="joke">
+        <div class="container">
+            <div class="jokecard">
+                <h5 class="jokeheader"><i class="fa-solid fa-face-smile-wink"></i> Best Joke to Make Your Day</h5>
+                <div class="cardcontent">
+                    <div class="jokes">
+                        <h5 class="jokedata">Click The Button below To get the Joke</h5>
+                    </div>
+                    <button type="button" class="jokebtn">Next Joke</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Random User Api using xmlhttpRequest -->
+    <section class="user">
+        <div class="container">
+            <div class="usercards">
+                <div class="cardimage">
+                    <img src="/old_src/website/javascript/project image/Apiimage/randomapiimage.jpg" class="userimg">
+                </div>
+                <div class="cardcontent">
+                    <h1 class="name"><span class="title">Mr</span> <span class="first">Abela</span> <span
+                            class="second">Jhonshon</span></h1>
+                    <h1 class="country">India</h1>
+                    <button type="button" class="userbtn">Next</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fetch api -->
+    <section class="fetch">
+        <div class="container">
+            <div class="fetchdata">
+                <div class="fetch_card">
+                    <div class="fetchcontent">
+                        <h1 class="fetchname">John</h1>
+                        <h5 class="fetchcity">USA</h5>
+                        <div class="fetchbtn">
+                            <button type="button" class="fetchbutton">Next</button>
+                            <button type="button" class="fetchbutton fetchbtnsecond">View More <i
+                                    class="fa-sharp fa-solid fa-circle-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carddetail">
+                    <div class="detailheading">
+                        <h1><i class="fa-solid fa-user"></i> User Detail of <span class="usernm"></span></h1>
+                        <div class="cardbtn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="first">
+                            <div class="box">
+                                <h1>Name: <span class="usernm"></span></h1>
+                            </div>
+                            <div class="box">
+                                <h1>Phone: <span class="userph"></span></h1>
+                            </div>
+                            <div class="box">
+                                <h1>Website: <span class="userweb"></span></h1>
+                            </div>
+                        </div>
+                        <div class="first">
+                            <div class="box">
+                                <h1>City: <span class="usercity"></span></h1>
+                            </div>
+                            <div class="box">
+                                <h1>Street: <span class="userst"></span></h1>
+                            </div>
+                            <div class="box">
+                                <h1>Suite: <span class="usersuite"></span></h1>
+                            </div>
+                        </div>
+                        <div class="first">
+                            <div class="box">
+                                <h1>Zipcode: <span class="userzip"></span></h1>
+                            </div>
+                            <div class="box">
+                                <h1>Latitude: <span class="userlat"></span></h1>
+                            </div>
+                            <div class="box">
+                                <h1>Longitude: <span class="userlog"></span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Async Await -->
+    <section class="async">
+        <div class="container">
+            <div class="cards">
+                <h1 class="asyncname">John</h1>
+                <button type="button" class="asyncbtn">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="/old_src/website/javascript/advance.js"></script>
+</body>
+
+</html>

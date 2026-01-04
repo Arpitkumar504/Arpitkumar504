@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-sarif";
+}
+
+body {
+    position: relative;
+    min-width: 100vh;
+    width: 100%;
+}
+
+/* sidebar */
+
+/* sidebar section */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 78px;
+    background: #11101d;
+    padding: 6px 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    /* z-index: 1; */
+}
+
+.sidebar.active {
+    width: 240px;
+}
+
+.sidebar .logocontent .logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar.active .logocontent .logo {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.logocontent .logo i {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.logocontent .logo .logoname {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sidebar #btn {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.sidebar.active #btn {
+    left: 90%;
+}
+
+/* .sidebar ul {
+    margin-top: 20px;
+} */
+
+.sidebar ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    line-height: 50px;
+    list-style-type: none;
+}
+
+.sidebar ul li .linksname {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar.active ul li .linksname {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.sidebar ul li input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background-color: #1d1b31;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.sidebar ul li .bx-search {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+
+.sidebar ul li .bx-search:hover {
+    color: #1d1b31;
+    background: #fff;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+.sidebar ul li a:hover {
+    color: #11101d;
+    background-color: #fff;
+}
+
+.sidebar ul li a i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* Profile section */
+.profile .profilecontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s ease;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.profile .profilecontent:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.profile .profilecontent:hover i,
+.profile .profilecontent:hover p {
+    color: #1d1b31;
+}
+
+.profile .profileimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+}
+
+.sidebar.active .profile .profileimg {
+    opacity: 1;
+}
+
+.profile .profilename {
+    color: #fff;
+    margin-left: 10px;
+    /* opacity:0; */
+}
+
+.profile .profilename p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.profile .profilename p:first-child {
+    font-weight: bolder;
+}
+
+.profile .profileout {
+    font-size: 25px;
+    color: #fff;
+}
+
+.profile .profileout i {
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+}
+
+.sidebar.active .profile .profileout i {
+    position: absolute;
+    top: 30%;
+    padding-left: 5px;
+}
+
+.sidebar.active .profile .profileout i {
+    position: absolute;
+    left: 85%;
+    bottom: 20px;
+    background: none;
+}
+
+.profile .profileimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+section.check h1 {
+    text-align: justify;
+}
+
+/* Home section */
+.sidebar.active~section.home,
+section.contact,
+section.check {
+    width: calc(100%-240px);
+    margin-left: 240px;
+}
+
+.sidebar~section.home,
+section.contact,
+section.check {
+    width: calc(100%-78px);
+    margin-left: 78px;
+}

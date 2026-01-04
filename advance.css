@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Pacifico&family=Poppins:wght@300&display=swap');
+
+:root {
+    --first: 'Pacifico', cursive;
+    --second: 'Poppins', sans-serif;
+    --third: 'Lobster Two', cursive;
+    --lightmodeback: white;
+    --lightmodecolor: #1d1d1d;
+    --footergradiant: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--second);
+}
+
+body {
+    position: relative;
+}
+
+/* xmlhttpRequest section */
+section.cdata {
+    padding: 50px 0;
+}
+
+section.cdata h5 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: var(--second);
+}
+
+section.cdata .countrylist {
+    background-color: #1d1d1d;
+    color: #f3f3f3;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.cdata tr {
+    cursor: pointer;
+}
+
+section.cdata td {
+    font-family: var(--second);
+    font-size: 20px;
+}
+
+section.cdata .tabledata {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+/* Joke section */
+section.joke {
+    margin: 50px 0;
+}
+
+section.joke .jokecard {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+section.joke .jokeheader {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;
+}
+
+section.joke .jokes {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+section.joke .cardcontent .jokedata {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+section.joke .cardcontent .jokebtn {
+    padding: 10px 20px;
+    background-color: #1d1d1d;
+    color: #f3f3f3;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+}
+
+/* user section */
+section.user {
+    margin: 50px;
+}
+
+section.user .usercards {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+section.user .usercards::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #1d1d1d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section.user .usercards .cardimage {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+}
+
+section.user .usercards .cardimage img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+section.user .usercards .cardcontent .name {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.user .usercards .cardcontent .country {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.user .usercards .userbtn {
+    padding: 10px 20px;
+    background-color: #1d1d1d;
+    color: #f3f3f3;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+section.user .usercards .userbtn:hover {
+    border: 2px solid black;
+    background-color: #f3f3f3;
+    color: #1d1d1d;
+}
+
+/* Fetch api section */
+section.fetch {
+    margin: 100px 0;
+    height: 400px;
+    position: relative;
+}
+
+section.fetch .fetch_card {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+section.fetch .fetchcontent {
+    width: 100%;
+}
+
+section.fetch .fetchname {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section.fetch .fetchcity {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.fetch .fetchbtn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+section.fetch .fetchbutton {
+    padding: 10px 25px;
+    background-color: #1d1d1d;
+    color: #f3f3f3;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+section.fetch .fetchbutton:hover {
+    background-color: #f3f3f3;
+    color: #1d1d1d;
+    border: 1px solid black;
+}
+
+section.fetch .fetchdata.active .carddetail {
+    display: block;
+    animation: fetch 0.6s ease;
+}
+
+@keyframes fetch {
+    0% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+section.fetch .carddetail {
+    width: 80%;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+section.fetch .carddetail .detailheading {
+    display: flex;
+    align-items: center;
+}
+
+section.fetch .carddetail .detailheading .cardbtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #1d1d1d;
+    color: #f3f3f3;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+section.fetch .carddetail .detailheading .cardbtn:hover {
+    background-color: #f3f3f3;
+    color: #1d1d1d;
+}
+
+section.fetch .detailheading h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+}
+
+section.fetch .detail {
+    margin-top: 10px;
+}
+
+section.fetch .first h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+section.fetch .detail .first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+section.fetch .detail .first .box {
+    width: 300px;
+    padding: 5px;
+}
+
+/* Asycn section */
+section.async {
+    margin: 30px 0;
+}
+
+section.async .cards {
+    width: 400px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section.async .cards .asyncname {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+section.async .cards .asyncbtn {
+    padding: 10px 20px;
+    background-color: #1d1d1d;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px auto;
+    transition: 0.6s ease;
+}
+
+section.async .cards .asyncbtn:hover {
+    background-color: #f3f3f3;
+    color: #1d1d1d;
+    border: 1px solid black;
+}
