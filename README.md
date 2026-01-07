@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Arpit Kumar</h1>
 <h3 align="center">A passionate Mobile Application Developer focused on performance & scalability</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=arpitkumar504&label=Profile%80views&color=0e75b6&style=flat" alt="arpitkumar504" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=arpitkumar504&label=Profile%20views&color=0e75b6&style=flat" alt="arpitkumar504" /> </p>
 
 <p align="left"> <a href="https://twitter.com/arpitkr2001" target="blank"><img src="https://img.shields.io/twitter/follow/arpitkr2001?logo=twitter&style=for-the-badge" alt="arpitkr2001" /></a> </p>
 
