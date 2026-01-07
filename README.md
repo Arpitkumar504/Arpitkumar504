@@ -24,7 +24,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/arpitkr2001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="arpitkr2001" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/in/arpit-kumar-b03913174/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/arpit-kumar-b03913174/" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/arpit-kumar-b03913174/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/arpit-kumar-b03913174/" height="30" width="40" /></a>
 <a href="https://fb.com/rishu.kr.790/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="rishu.kr.790/" height="30" width="40" /></a>
 <a href="https://instagram.com/rishukr152" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rishukr152" height="30" width="40" /></a>
 <a href="https://medium.com/@arpitkr2001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@arpitkr2001" height="30" width="40" /></a>
