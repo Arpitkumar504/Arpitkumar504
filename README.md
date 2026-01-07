@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arpitkumar504&label=Profile%20views&color=0e75b6&style=flat" alt="arpitkumar504" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=arpitkumar504" alt="arpitkumar504" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/arpitkr2001" target="blank"><img src="https://img.shields.io/twitter/follow/arpitkr2001?logo=twitter&style=for-the-badge" alt="arpitkr2001" /></a> </p>
 
 - 🔭 I’m currently working on **High-performance React Native apps with clean architecture, smooth UX, and production-ready quality.**
